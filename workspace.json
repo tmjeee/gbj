@@ -1,0 +1,12 @@
+{
+  "$schema": "./node_modules/nx/schemas/workspace-schema.json",
+  "version": 2,
+  "projects": {
+    "api": "apps/api",
+    "portal": "apps/portal",
+    "portal-e2e": "apps/portal-e2e",
+    "share-lib": "libs/share-lib",
+    "style-lib": "libs/style-lib",
+    "ui-lib": "libs/ui-lib"
+  }
+}
