@@ -3,6 +3,7 @@
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
+    "ng": "nx",
     "start": "nx serve",
     "build": "nx build",
     "test": "nx test",
@@ -46,10 +47,12 @@
   },
   "dependencies": {
     "@angular/animations": "~13.3.0",
+    "@angular/cdk": "^14.0.1",
     "@angular/common": "~13.3.0",
     "@angular/compiler": "~13.3.0",
     "@angular/core": "~13.3.0",
     "@angular/forms": "~13.3.0",
+    "@angular/material": "^14.0.1",
     "@angular/platform-browser": "~13.3.0",
     "@angular/platform-browser-dynamic": "~13.3.0",
     "@angular/router": "~13.3.0",
