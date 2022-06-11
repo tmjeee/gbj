@@ -10,15 +10,27 @@
     "importHelpers": true,
     "target": "es2015",
     "module": "esnext",
-    "lib": ["es2017", "dom"],
+    "lib": [
+      "es2017",
+      "dom"
+    ],
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@gbj/share-lib": ["libs/share-lib/src/index.ts"],
-      "@gbj/style-lib": ["libs/style-lib/src/index.ts"],
-      "@gbj/ui-lib": ["libs/ui-lib/src/index.ts"]
+      "@gbj/share-lib": [
+        "libs/share-lib/src/index.ts"
+      ],
+      "@gbj/style-lib": [
+        "libs/style-lib/src/index.ts"
+      ],
+      "@gbj/ui-lib": [
+        "libs/ui-lib/src/index.ts"
+      ]
     }
   },
-  "exclude": ["node_modules", "tmp"]
+  "exclude": [
+    "node_modules",
+    "tmp"
+  ]
 }
